@@ -1,0 +1,55 @@
+h2 {
+    color: white;
+    text-decoration: overline;
+}
+a:hover {
+    color: white;
+}
+body {
+    background-color: rgb(158, 148, 148);
+}
+li:nth-child(1) {
+    background-color: rgb(234, 234, 76);
+}
+li:nth-child(3) {
+    background-color: rgb(233, 87, 87);
+}
+li:nth-child(5) {
+    background-color: rgb(224, 238, 238);
+}
+div:not(.class1) {
+    border: 2px dashed green;
+}
+div:not(.class2) {
+    border: 2px dashed pink;
+}
+.decorated:before {
+    content:FUN;
+    color : orange;
+}
+.decorated:after {
+    content: GREAT;
+    color :black;
+}
+p::first-letter {
+    font-size: 30px;
+    color: purple;
+}
+
+
+input[type="text"] {
+    border: 2px solid green;
+}
+
+input [type="text"] {
+    border: 2px solid green;
+}
+
+ul>li {
+    text-decoration: underline;
+    color: black;
+}
+
+ol>li {
+    color: maroon;
+}
